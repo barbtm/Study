@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+    <body>
+        <header> <!---Cabeçalho da página-->
+        <h1>CatPhotoApp</h1>
+        </header>
+            <main>
+            <section> <!--Photos-->
+                <h2>Cat Photos </h2>
+                <!--Add links-->
+                <p>Everyone loves <a href="cute cats" target="_blank">cute cats</a> online!</p>
+                <p>See more <a target="_blank" href="https://br.pinterest.com/pin/33214115996352794">Cat photos</a></p>
+                <a href="/images/kitty.jpg">
+                    <img src="/images/kitty.jpg" alt="Kitty w kuromi's hat">
+                </a>
+            </section>
+            <section><!--Lists-->
+                <h2>Cat lists</h2>
+                <h3>Things cats love:</h3>
+                <ul>
+                    <li>catnip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                    <figure>
+                        <img src="/images/pizza cat.jpg" alt="Pizza cat">
+                        <figcaption>Cats <em>love</em> pizza</figcaption>
+                    </figure>
+                <h3>Top 3 things cats hate:</h3>
+                <ol>
+                    <li>Hugs</li>
+                    <li>Cucumber</li>
+                    <li>Chocolate</li>
+                </ol>
+                    <figure>
+                        <img src="images/cucumcat.jpg" alt="cucumcat">
+                        <figcaption>cat <b>hate</b> cucumber</figcaption>
+                    </figure>
+            </section>
+            <section> <!--Forms-->
+                <h2>Cat Form</h2>
+                <form action="/submit-url"></form>
+                <fieldset>
+                    <legend>Is your cat an meow or meowmeow cat?</legend>
+                    <label>
+                        <input checked type="radio" id="indoor" name="indoor-outdoor" value="indoor">Meow
+                    </label><br>
+                    <label>
+                        <input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor">Miau
+                    </label><br>
+                <input type="text" name="cat" placeholder="E-meow" required>
+                <button type="Submit">Meowit</button>
+                </fieldset>
+                <fieldset>
+                    <legend>Whats ur cat personality?</legend>
+                    <input checked id="loving" type="checkbox" name="personality" value="loving"><label for="loving">Loving</label>
+                    <input id="funny" type="checkbox" name="personality" value="funny"><label for="lazy">Funny</label>
+                    <input id="lazy" type="checkbox" name="personality" value="lazy"><label for="lazy">Lazy</label>
+                </fieldset>
+            </section>
+            </main>
+            <footer>
+                <p>No Copyright - <a href="https://www.youtube.com/watch?v=bf7rAzeuqt4">Funny Cats</a></p>
+            </footer>
+    </body>
+</html>
